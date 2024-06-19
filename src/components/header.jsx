@@ -49,8 +49,11 @@ const Header = observer(({ getSiteData }) => {
         </CSSTransition>
       </SwitchTransition>
       <div className="container">
-        <div className="menu">
-          <span className="logo">{siteName}</span>
+        <div class="title">
+          <span>状态 / Status</span>
+          <div class="subtitle">
+            <span>MarxChou</span>
+          </div>
         </div>
         <div className="status">
           <div className={`icon ${status.siteState}`} />
